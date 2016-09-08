@@ -1,0 +1,12 @@
+PODS:
+  - CKDropdownMenu (2.0.0)
+
+DEPENDENCIES:
+  - CKDropdownMenu
+
+SPEC CHECKSUMS:
+  CKDropdownMenu: 7361fcf38af7f6df25056283adb641b445bffe9a
+
+PODFILE CHECKSUM: 4edd10cf7081c5f6f567535aa940e7249acbebdd
+
+COCOAPODS: 1.0.1

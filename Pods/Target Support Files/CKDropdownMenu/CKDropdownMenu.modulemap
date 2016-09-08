@@ -1,0 +1,6 @@
+framework module CKDropdownMenu {
+  umbrella header "CKDropdownMenu-umbrella.h"
+
+  export *
+  module * { export * }
+}

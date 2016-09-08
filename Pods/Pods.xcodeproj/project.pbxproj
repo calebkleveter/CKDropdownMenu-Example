@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C8CF14D6999347242DFEC24D57FB742 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		3EEB222691413243DCDE9EF2E001A401 /* Pods-CKDropdown-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B24988BE2C4FB4BE62E6EB1F1316856 /* Pods-CKDropdown-Example-dummy.m */; };
+		3F2D12763547311BAE17055B091180BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		45CF20895B4151C248F2B586EB26C9D0 /* Pods-CKDropdown-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A62FF960F99E474713A71BF360C1D065 /* Pods-CKDropdown-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AF95166547A41655D9BF0251C038282 /* DropdownMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E247BE56909BEC9EC3EC2879204A408B /* DropdownMenuController.swift */; };
+		DAA5F801C9565B022AED01FED45D365D /* CKDropdownMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C9C3C96D8F6955622DD0DFF24FA317C /* CKDropdownMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1A1C116A40D2A447E61680FF11CBC08 /* CKDropdownMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F20B51343A08AB09C21AA597255CBB /* CKDropdownMenu-dummy.m */; };
+		F7D98E7E76AB279609FB0F301D3807A0 /* DropdownMenuSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCF2AF0A8F70137AB1744C5A78BCA25 /* DropdownMenuSegue.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC02DA2DF3428028F72F235E1D881640 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75BBA9082068AAC36C347F8E375665EF;
+			remoteInfo = CKDropdownMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17B4E85EF242728237ABE2626FF78AC8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		217235D5685F3E19F95C4D4A8147AE41 /* Pods-CKDropdown-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CKDropdown-Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		41EF8EC269DBE3136E7CE6914BEC0A7A /* CKDropdownMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CKDropdownMenu-prefix.pch"; sourceTree = "<group>"; };
+		468A4DFB6C5C9A967C6D11D82F721083 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D483E987BF782710F6FC335482BE0AA /* Pods-CKDropdown-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CKDropdown-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		51B59D8E45D4D451C5E268A0DDA13D00 /* Pods-CKDropdown-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CKDropdown-Example.modulemap"; sourceTree = "<group>"; };
+		5CCF2AF0A8F70137AB1744C5A78BCA25 /* DropdownMenuSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropdownMenuSegue.swift; path = CKDropdownMenu/Classes/DropdownMenuSegue.swift; sourceTree = "<group>"; };
+		6B24988BE2C4FB4BE62E6EB1F1316856 /* Pods-CKDropdown-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CKDropdown-Example-dummy.m"; sourceTree = "<group>"; };
+		6C9C3C96D8F6955622DD0DFF24FA317C /* CKDropdownMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CKDropdownMenu-umbrella.h"; sourceTree = "<group>"; };
+		73D3A14530D1552C4748323F0D4BFAEE /* CKDropdownMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CKDropdownMenu.xcconfig; sourceTree = "<group>"; };
+		85768027117A5CA35215394BEC567D7B /* Pods-CKDropdown-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CKDropdown-Example-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A62FF960F99E474713A71BF360C1D065 /* Pods-CKDropdown-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CKDropdown-Example-umbrella.h"; sourceTree = "<group>"; };
+		A7245A272D2021497317001E2E86BE0B /* Pods-CKDropdown-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CKDropdown-Example-frameworks.sh"; sourceTree = "<group>"; };
+		AE8F01026ACD777498DDB713FBD43207 /* Pods_CKDropdown_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CKDropdown_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CF87529A46EDE0A10D9A3DB9312AE49F /* Pods-CKDropdown-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CKDropdown-Example.release.xcconfig"; sourceTree = "<group>"; };
+		DDFB5802AF9285AC039AD650C5F910E0 /* CKDropdownMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CKDropdownMenu.modulemap; sourceTree = "<group>"; };
+		E247BE56909BEC9EC3EC2879204A408B /* DropdownMenuController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropdownMenuController.swift; path = CKDropdownMenu/Classes/DropdownMenuController.swift; sourceTree = "<group>"; };
+		E291378FBBD93823B90E4D15DA3175B3 /* CKDropdownMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CKDropdownMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F024FB8C13EF4E467E787BF00FF945C7 /* Pods-CKDropdown-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CKDropdown-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F6F20B51343A08AB09C21AA597255CBB /* CKDropdownMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CKDropdownMenu-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C9F820E4B57131170A926315E48C52B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C8CF14D6999347242DFEC24D57FB742 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D8094FB845D2CE076BF6B5EFDB1D26F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2D12763547311BAE17055B091180BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		206D59218830A424DDD6F03D9C6DF768 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				651A8E6919AA43445907A08F1CFB5C1C /* Pods-CKDropdown-Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2ACF9CCE78F6B20CBA9355AB17DD8787 /* CKDropdownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				E247BE56909BEC9EC3EC2879204A408B /* DropdownMenuController.swift */,
+				5CCF2AF0A8F70137AB1744C5A78BCA25 /* DropdownMenuSegue.swift */,
+				32993BBEDBC325E14FE63594969147AA /* Support Files */,
+			);
+			path = CKDropdownMenu;
+			sourceTree = "<group>";
+		};
+		32993BBEDBC325E14FE63594969147AA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDFB5802AF9285AC039AD650C5F910E0 /* CKDropdownMenu.modulemap */,
+				73D3A14530D1552C4748323F0D4BFAEE /* CKDropdownMenu.xcconfig */,
+				F6F20B51343A08AB09C21AA597255CBB /* CKDropdownMenu-dummy.m */,
+				41EF8EC269DBE3136E7CE6914BEC0A7A /* CKDropdownMenu-prefix.pch */,
+				6C9C3C96D8F6955622DD0DFF24FA317C /* CKDropdownMenu-umbrella.h */,
+				468A4DFB6C5C9A967C6D11D82F721083 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CKDropdownMenu";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		55684D77EBFBD77CA20FE246797DD0EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2ACF9CCE78F6B20CBA9355AB17DD8787 /* CKDropdownMenu */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		651A8E6919AA43445907A08F1CFB5C1C /* Pods-CKDropdown-Example */ = {
+			isa = PBXGroup;
+			children = (
+				17B4E85EF242728237ABE2626FF78AC8 /* Info.plist */,
+				51B59D8E45D4D451C5E268A0DDA13D00 /* Pods-CKDropdown-Example.modulemap */,
+				4D483E987BF782710F6FC335482BE0AA /* Pods-CKDropdown-Example-acknowledgements.markdown */,
+				217235D5685F3E19F95C4D4A8147AE41 /* Pods-CKDropdown-Example-acknowledgements.plist */,
+				6B24988BE2C4FB4BE62E6EB1F1316856 /* Pods-CKDropdown-Example-dummy.m */,
+				A7245A272D2021497317001E2E86BE0B /* Pods-CKDropdown-Example-frameworks.sh */,
+				85768027117A5CA35215394BEC567D7B /* Pods-CKDropdown-Example-resources.sh */,
+				A62FF960F99E474713A71BF360C1D065 /* Pods-CKDropdown-Example-umbrella.h */,
+				F024FB8C13EF4E467E787BF00FF945C7 /* Pods-CKDropdown-Example.debug.xcconfig */,
+				CF87529A46EDE0A10D9A3DB9312AE49F /* Pods-CKDropdown-Example.release.xcconfig */,
+			);
+			name = "Pods-CKDropdown-Example";
+			path = "Target Support Files/Pods-CKDropdown-Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				55684D77EBFBD77CA20FE246797DD0EE /* Pods */,
+				8DE41D140D059F5C96E74A9D8825E08B /* Products */,
+				206D59218830A424DDD6F03D9C6DF768 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8DE41D140D059F5C96E74A9D8825E08B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E291378FBBD93823B90E4D15DA3175B3 /* CKDropdownMenu.framework */,
+				AE8F01026ACD777498DDB713FBD43207 /* Pods_CKDropdown_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		26C9B8930BF44E0C83B6C863B991BA09 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45CF20895B4151C248F2B586EB26C9D0 /* Pods-CKDropdown-Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F94ABC144C69E14F30E5E0F244873776 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA5F801C9565B022AED01FED45D365D /* CKDropdownMenu-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		310BD1C19B5D372E88D2343EE1CA2DF6 /* Pods-CKDropdown-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A634FB7AA097131A8FC7C3B4460CF82 /* Build configuration list for PBXNativeTarget "Pods-CKDropdown-Example" */;
+			buildPhases = (
+				3102BE361E359C196B23AD4B29853BFE /* Sources */,
+				9D8094FB845D2CE076BF6B5EFDB1D26F /* Frameworks */,
+				26C9B8930BF44E0C83B6C863B991BA09 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83E0F586EC2DFA93BB6687456F83F4DA /* PBXTargetDependency */,
+			);
+			name = "Pods-CKDropdown-Example";
+			productName = "Pods-CKDropdown-Example";
+			productReference = AE8F01026ACD777498DDB713FBD43207 /* Pods_CKDropdown_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		75BBA9082068AAC36C347F8E375665EF /* CKDropdownMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB539E51746A629B5FBC4535E65C63DA /* Build configuration list for PBXNativeTarget "CKDropdownMenu" */;
+			buildPhases = (
+				2EB17C29A6C0BFF5D154B080B490A796 /* Sources */,
+				1C9F820E4B57131170A926315E48C52B /* Frameworks */,
+				F94ABC144C69E14F30E5E0F244873776 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CKDropdownMenu;
+			productName = CKDropdownMenu;
+			productReference = E291378FBBD93823B90E4D15DA3175B3 /* CKDropdownMenu.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					75BBA9082068AAC36C347F8E375665EF = {
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8DE41D140D059F5C96E74A9D8825E08B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75BBA9082068AAC36C347F8E375665EF /* CKDropdownMenu */,
+				310BD1C19B5D372E88D2343EE1CA2DF6 /* Pods-CKDropdown-Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EB17C29A6C0BFF5D154B080B490A796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1A1C116A40D2A447E61680FF11CBC08 /* CKDropdownMenu-dummy.m in Sources */,
+				4AF95166547A41655D9BF0251C038282 /* DropdownMenuController.swift in Sources */,
+				F7D98E7E76AB279609FB0F301D3807A0 /* DropdownMenuSegue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3102BE361E359C196B23AD4B29853BFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EEB222691413243DCDE9EF2E001A401 /* Pods-CKDropdown-Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83E0F586EC2DFA93BB6687456F83F4DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CKDropdownMenu;
+			target = 75BBA9082068AAC36C347F8E375665EF /* CKDropdownMenu */;
+			targetProxy = EC02DA2DF3428028F72F235E1D881640 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		42287DDF97330524BA3EF220F0276DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F4C2412DFFBC07B36AA91B70593DD0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF87529A46EDE0A10D9A3DB9312AE49F /* Pods-CKDropdown-Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CKDropdown-Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CKDropdown-Example/Pods-CKDropdown-Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CKDropdown_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A3093D944226D50C72B91E58223CF74D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73D3A14530D1552C4748323F0D4BFAEE /* CKDropdownMenu.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CKDropdownMenu/CKDropdownMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CKDropdownMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CKDropdownMenu/CKDropdownMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CKDropdownMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AE9439C22469D35336242DD983DB5C5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C945DAD1879B9CD735412A39925DD469 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F024FB8C13EF4E467E787BF00FF945C7 /* Pods-CKDropdown-Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CKDropdown-Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CKDropdown-Example/Pods-CKDropdown-Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CKDropdown_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CF7013DF901EA5E19A7AE83DA41F864F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73D3A14530D1552C4748323F0D4BFAEE /* CKDropdownMenu.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CKDropdownMenu/CKDropdownMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CKDropdownMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CKDropdownMenu/CKDropdownMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CKDropdownMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A634FB7AA097131A8FC7C3B4460CF82 /* Build configuration list for PBXNativeTarget "Pods-CKDropdown-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C945DAD1879B9CD735412A39925DD469 /* Debug */,
+				4F4C2412DFFBC07B36AA91B70593DD0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE9439C22469D35336242DD983DB5C5F /* Debug */,
+				42287DDF97330524BA3EF220F0276DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB539E51746A629B5FBC4535E65C63DA /* Build configuration list for PBXNativeTarget "CKDropdownMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3093D944226D50C72B91E58223CF74D /* Debug */,
+				CF7013DF901EA5E19A7AE83DA41F864F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

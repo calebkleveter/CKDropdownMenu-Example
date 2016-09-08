@@ -1,0 +1,6 @@
+framework module Pods_CKDropdown_Example {
+  umbrella header "Pods-CKDropdown-Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

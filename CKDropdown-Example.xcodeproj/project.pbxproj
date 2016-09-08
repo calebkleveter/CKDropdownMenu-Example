@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72EA5C0C8FEDA1E7E00DA6BE /* Pods_CKDropdown_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 608E04EE94004D275E67D23A /* Pods_CKDropdown_Example.framework */; };
+		A464CF8F1D7F0BD700B1B10D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A464CF8E1D7F0BD700B1B10D /* AppDelegate.swift */; };
+		A464CF911D7F0BD700B1B10D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A464CF901D7F0BD700B1B10D /* ViewController.swift */; };
+		A464CF941D7F0BD800B1B10D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A464CF921D7F0BD700B1B10D /* Main.storyboard */; };
+		A464CF961D7F0BD800B1B10D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A464CF951D7F0BD800B1B10D /* Assets.xcassets */; };
+		A464CF991D7F0BD800B1B10D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A464CF971D7F0BD800B1B10D /* LaunchScreen.storyboard */; };
+		A464CFA11D7F31E000B1B10D /* DropdownController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A464CFA01D7F31E000B1B10D /* DropdownController.swift */; };
+		A479A1941D7F481500211B2C /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = A479A1931D7F481500211B2C /* Icons.swift */; };
+		A479A1961D7F4BDD00211B2C /* IonIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = A479A1951D7F4BDD00211B2C /* IonIcons.swift */; };
+		A479A1981D80788600211B2C /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A479A1971D80772B00211B2C /* ionicons.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		608E04EE94004D275E67D23A /* Pods_CKDropdown_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CKDropdown_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6143D262D861EA882435962A /* Pods-CKDropdown-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CKDropdown-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CKDropdown-Example/Pods-CKDropdown-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6F5F97ACF74D8D3CA26CF7DB /* Pods-CKDropdown-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CKDropdown-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CKDropdown-Example/Pods-CKDropdown-Example.release.xcconfig"; sourceTree = "<group>"; };
+		A464CF8B1D7F0BD700B1B10D /* CKDropdown-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CKDropdown-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A464CF8E1D7F0BD700B1B10D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A464CF901D7F0BD700B1B10D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A464CF931D7F0BD700B1B10D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A464CF951D7F0BD800B1B10D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A464CF981D7F0BD800B1B10D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A464CF9A1D7F0BD800B1B10D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A464CFA01D7F31E000B1B10D /* DropdownController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropdownController.swift; sourceTree = "<group>"; };
+		A479A1931D7F481500211B2C /* Icons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
+		A479A1951D7F4BDD00211B2C /* IonIcons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IonIcons.swift; sourceTree = "<group>"; };
+		A479A1971D80772B00211B2C /* ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ionicons.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A464CF881D7F0BD600B1B10D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72EA5C0C8FEDA1E7E00DA6BE /* Pods_CKDropdown_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		675EDC37E362521B89FE78E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				608E04EE94004D275E67D23A /* Pods_CKDropdown_Example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B1913496115938DF485708A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6143D262D861EA882435962A /* Pods-CKDropdown-Example.debug.xcconfig */,
+				6F5F97ACF74D8D3CA26CF7DB /* Pods-CKDropdown-Example.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A464CF821D7F0BD500B1B10D = {
+			isa = PBXGroup;
+			children = (
+				A464CF8D1D7F0BD700B1B10D /* CKDropdown-Example */,
+				A464CF8C1D7F0BD700B1B10D /* Products */,
+				8B1913496115938DF485708A /* Pods */,
+				675EDC37E362521B89FE78E8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A464CF8C1D7F0BD700B1B10D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A464CF8B1D7F0BD700B1B10D /* CKDropdown-Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A464CF8D1D7F0BD700B1B10D /* CKDropdown-Example */ = {
+			isa = PBXGroup;
+			children = (
+				A464CF8E1D7F0BD700B1B10D /* AppDelegate.swift */,
+				A464CF901D7F0BD700B1B10D /* ViewController.swift */,
+				A464CFA01D7F31E000B1B10D /* DropdownController.swift */,
+				A464CF921D7F0BD700B1B10D /* Main.storyboard */,
+				A464CF951D7F0BD800B1B10D /* Assets.xcassets */,
+				A464CF971D7F0BD800B1B10D /* LaunchScreen.storyboard */,
+				A464CF9A1D7F0BD800B1B10D /* Info.plist */,
+				A479A1931D7F481500211B2C /* Icons.swift */,
+				A479A1951D7F4BDD00211B2C /* IonIcons.swift */,
+				A479A1971D80772B00211B2C /* ionicons.ttf */,
+			);
+			path = "CKDropdown-Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A464CF8A1D7F0BD600B1B10D /* CKDropdown-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A464CF9D1D7F0BD800B1B10D /* Build configuration list for PBXNativeTarget "CKDropdown-Example" */;
+			buildPhases = (
+				F71A162AAF741331F7D25B42 /* [CP] Check Pods Manifest.lock */,
+				A464CF871D7F0BD600B1B10D /* Sources */,
+				A464CF881D7F0BD600B1B10D /* Frameworks */,
+				A464CF891D7F0BD600B1B10D /* Resources */,
+				9499D4D4B0E0178CE817FAB0 /* [CP] Embed Pods Frameworks */,
+				56C0A8F3A95F616BB66C7BD1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CKDropdown-Example";
+			productName = "CKDropdown-Example";
+			productReference = A464CF8B1D7F0BD700B1B10D /* CKDropdown-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A464CF831D7F0BD500B1B10D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Caleb Kleveter";
+				TargetAttributes = {
+					A464CF8A1D7F0BD600B1B10D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = P8R3PQHXU5;
+						DevelopmentTeamName = "Heather Kleveter (Personal Team)";
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A464CF861D7F0BD500B1B10D /* Build configuration list for PBXProject "CKDropdown-Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A464CF821D7F0BD500B1B10D;
+			productRefGroup = A464CF8C1D7F0BD700B1B10D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A464CF8A1D7F0BD600B1B10D /* CKDropdown-Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A464CF891D7F0BD600B1B10D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A479A1981D80788600211B2C /* ionicons.ttf in Resources */,
+				A464CF991D7F0BD800B1B10D /* LaunchScreen.storyboard in Resources */,
+				A464CF961D7F0BD800B1B10D /* Assets.xcassets in Resources */,
+				A464CF941D7F0BD800B1B10D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		56C0A8F3A95F616BB66C7BD1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CKDropdown-Example/Pods-CKDropdown-Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9499D4D4B0E0178CE817FAB0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CKDropdown-Example/Pods-CKDropdown-Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F71A162AAF741331F7D25B42 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A464CF871D7F0BD600B1B10D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A464CF911D7F0BD700B1B10D /* ViewController.swift in Sources */,
+				A464CF8F1D7F0BD700B1B10D /* AppDelegate.swift in Sources */,
+				A479A1941D7F481500211B2C /* Icons.swift in Sources */,
+				A479A1961D7F4BDD00211B2C /* IonIcons.swift in Sources */,
+				A464CFA11D7F31E000B1B10D /* DropdownController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A464CF921D7F0BD700B1B10D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A464CF931D7F0BD700B1B10D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A464CF971D7F0BD800B1B10D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A464CF981D7F0BD800B1B10D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A464CF9B1D7F0BD800B1B10D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A464CF9C1D7F0BD800B1B10D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A464CF9E1D7F0BD800B1B10D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6143D262D861EA882435962A /* Pods-CKDropdown-Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CKDropdown-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Caleb-Kleveter.CKDropdown-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A464CF9F1D7F0BD800B1B10D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F5F97ACF74D8D3CA26CF7DB /* Pods-CKDropdown-Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CKDropdown-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Caleb-Kleveter.CKDropdown-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A464CF861D7F0BD500B1B10D /* Build configuration list for PBXProject "CKDropdown-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A464CF9B1D7F0BD800B1B10D /* Debug */,
+				A464CF9C1D7F0BD800B1B10D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A464CF9D1D7F0BD800B1B10D /* Build configuration list for PBXNativeTarget "CKDropdown-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A464CF9E1D7F0BD800B1B10D /* Debug */,
+				A464CF9F1D7F0BD800B1B10D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A464CF831D7F0BD500B1B10D /* Project object */;
+}
